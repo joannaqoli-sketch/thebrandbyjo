@@ -450,7 +450,30 @@ section, .trust, .urgency-bar { max-width: 100%; overflow-x: hidden; }
 <link rel="preconnect" href="https://fonts.googleapis.com"/>
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
 <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@700;800;900&family=Playfair+Display:ital,wght@0,700;1,500;1,700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet"/>
-<style>
+/* FIX ABOUT SECTION (mobile + layout) */
+.about-inner {
+  display: flex !important;
+  flex-direction: column !important;
+}
+
+.about-inner > * {
+  width: 100% !important;
+}
+
+.about-inner::before {
+  display: none !important;
+}
+
+.about-inner {
+  overflow: visible !important;
+}
+
+/* Fix images overlap */
+.about-inner img {
+  position: relative !important;
+  max-width: 100% !important;
+  height: auto !important;
+}<style>
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
 :root{
   --dark:#1C1C1C;--dark2:#242424;
