@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="el">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Ευχαριστούμε! – The Brand By Jo</title>
+
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-PWNZ9BJ76Y"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-PWNZ9BJ76Y');
+    gtag('event', 'purchase', { currency: 'EUR', value: 129 });
+  </script>
+
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    :root {
+      --dark:  #2E0F1A;
+      --blue:  #C8DCEF;
+      --cream: #F5F0E4;
+      --pink:  #F5ADCE;
+      --white: #FFFFFF;
+    }
+    body { font-family: 'Inter', sans-serif; background: var(--cream); color: var(--dark); min-height: 100vh; display: flex; flex-direction: column; -webkit-font-smoothing: antialiased; }
+
+    nav {
+      background: var(--cream);
+      border-bottom: 1px solid rgba(0,0,0,.07);
+      display: flex; align-items: center; justify-content: space-between;
+      padding: 16px 48px;
+    }
+    .nav-logo { font-family: 'Bebas Neue', sans-serif; font-size: 1.55rem; letter-spacing: .1em; color: var(--dark); text-decoration: none; }
+
+    main {
+      flex: 1;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 60px 24px;
+      text-align: center;
+    }
+
+    .card {
+      background: var(--white);
+      border-radius: 24px;
+      padding: 60px 48px;
+      max-width: 520px;
+      width: 100%;
+    }
+
+    .icon { font-size: 52px; margin-bottom: 24px; }
+
+    h1 {
+      font-family: 'Bebas Neue', sans-serif;
+      font-size: 3rem;
+      letter-spacing: .05em;
+      color: var(--dark);
+      line-height: 1;
+      margin-bottom: 16px;
+    }
+
+    p {
+      font-size: .95rem;
+      line-height: 1.7;
+      color: #555;
+      margin-bottom: 12px;
+    }
+
+    .divider { width: 48px; height: 2px; background: var(--pink); margin: 24px auto; border-radius: 2px; }
+
+    .btn {
+      display: inline-block;
+      background: var(--pink);
+      color: var(--dark);
+      border-radius: 50px;
+      padding: 14px 34px;
+      font-size: .9rem;
+      font-weight: 700;
+      text-decoration: none;
+      letter-spacing: .04em;
+      margin-top: 28px;
+      transition: background .2s;
+    }
+    .btn:hover { background: #f090bc; }
+
+    @media (max-width: 600px) {
+      nav { padding: 14px 20px; }
+      .card { padding: 40px 28px; }
+      h1 { font-size: 2.4rem; }
+    }
+  </style>
+</head>
+<body>
+
+<nav>
+  <a href="/" class="nav-logo">The Brand By Jo</a>
+</nav>
+
+<main>
+  <div class="card">
+    <div class="icon">🕯️</div>
+    <h1>Η αγορά σου ολοκληρώθηκε!</h1>
+    <div class="divider"></div>
+    <p>Ευχαριστούμε πολύ — είμαστε χαρούμενοι που είσαι εδώ.</p>
+    <p>Θα λάβεις <strong>email με πρόσβαση στο σεμινάριο</strong> μέσα στα επόμενα λεπτά. Αν δεν το βλέπεις, έλεγξε και τα spam.</p>
+    <p>Καλή αρχή στον κόσμο της κηροπλαστικής! 🤍</p>
+    <a href="/" class="btn">Επιστροφή στο site →</a>
+  </div>
+</main>
+
+</body>
+</html>
